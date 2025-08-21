@@ -1,0 +1,24 @@
+.iphones-bg{
+  
+  display: flex;
+  flex-direction: column;
+  background-image:url("../Assets/thirdbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  width:100%;
+  height: 634px;
+  align-items: center;
+  margin-top:12px;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+
+}
+
+.phone-fam{
+
+  font-size: 22px;
+  margin-top:1px;
+  font-family:arial;
+}

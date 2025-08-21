@@ -1,0 +1,770 @@
+2 ) topbar.css
+
+
+
+body{
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+.topbarmain{
+
+ display: flex;
+ justify-content: center;
+  background-color: white;
+  width: 100%;
+  align-items: center;
+
+
+}
+.topbarcontent{
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  display: grid;
+  grid-template-columns:50px 800px 50px 50px ;
+
+
+
+}
+.icon,.shop,.search{
+  width: 16px;
+}
+.searchdiv,.shopdiv{
+
+    margin-left: 30px;
+
+}
+
+
+.ptop{
+
+  display: inline-block;
+  font-size:10px;
+  text-align: center;
+
+}
+
+
+.icondiv{
+  display: inline-block;
+  width:18px;
+}
+
+.menus{
+
+  display: flex;
+  justify-content: space-between;
+}
+
+
+3 ) mainproduct.css
+
+
+.name{
+
+  font-family: inter;
+  font-size: 45px;
+  margin-top: 53px;
+  display: block;
+  margin-bottom: 0px;
+}
+
+.main-product-bg{
+  
+  display: flex;
+  flex-direction: column;
+  background-image:url("../Assets/firstbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  width:100%;
+  height: 634px;
+  align-items: center;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+}
+
+.speciality{
+ 
+
+  color: rgb(0, 0, 0);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 22px;
+  margin-top: 0px;
+
+}
+.colour{
+  
+ color: rgb(0, 0, 0);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 22px;
+    margin-bottom: 0px;
+     margin-top: 0px;
+}
+
+.button-learn{
+
+  background-color:#0071e3;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border:none;
+  border-radius:30px;
+  font-size: 17px;
+  color: white;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-right:12px;
+  cursor: pointer;
+}
+
+.button-learn:hover{
+
+    background-color:#0159b1;
+    transition: all .35s;
+}
+
+.button-buy{
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0071e3;
+  background-color:transparent;
+  color: #0071e3;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-radius:30px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.button-buy:hover{
+
+  background-color:#0071e3;
+  color: white;
+  transition: all 0.35s;
+}
+
+.trademark-word{
+
+  margin-top: 300px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+ font-size: 18px;
+ color: rgb(246, 0, 230);
+}
+
+
+4 ) product-advice.css
+
+
+.product-advice-bg{
+  
+  display: flex;
+  flex-direction: column;
+  background-image:url("../Assets/secondbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  width:100%;
+  height: 634px;
+  align-items: center;
+  margin-top:12px;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+
+}
+
+.button-shop{
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0071e3;
+  background-color:transparent;
+  color: #0071e3;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-radius:30px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 530px;
+}
+
+.button-shop:hover{
+
+   background-color:#0071e3;
+  color: white;
+  transition: all 0.35s;
+}
+
+
+.product-advice-bg:hover,.main-product-bg:hover,.iphones-bg:hover,
+.first-box:hover,.second-box:hover,.third-box:hover,.fourth-box:hover,
+.fifth-box:hover,.sixth-box:hover{
+
+  border-width: 2px;
+  border-color: #0071e3;
+  border-style: solid;
+  transition:all 1s;
+
+}
+
+
+
+
+5 )iphones.css
+
+
+
+.iphones-bg{
+  
+  display: flex;
+  flex-direction: column;
+  background-image:url("../Assets/thirdbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  width:100%;
+  height: 634px;
+  align-items: center;
+  margin-top:12px;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+
+}
+
+.phone-fam{
+
+  font-size: 22px;
+  margin-top:1px;
+  font-family:arial;
+}
+
+
+
+6 ) grid-section.css
+
+
+.grided-section{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right:15px;
+  row-gap: 15px;
+
+  
+}
+
+
+sup{
+
+  font-size: 10px;
+}
+
+/*    Grid 1 CSS    */
+
+.first-box{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../Assets/grid-image-1.jpg");
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;  
+
+}
+
+.grid-1-speciality{
+
+  margin-top: 5px;
+  font-family:arial; 
+  font-size: 20px; 
+  color: rgb(255, 255, 255);
+  font-family:Arial, Helvetica, sans-serif;
+
+  
+  
+}
+.grid-1-name
+{
+  color:white ; 
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+
+.grid-1-button-2{
+
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0071e3;
+  background-color:transparent;
+  color: #0071e3;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius:30px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+
+.grid-1-button-2:hover{
+
+ background-color:#0071e3;
+  color: white;
+  transition: all 0.35s;
+}
+.grid-1-button-1{
+
+   background-color:#0071e3;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border:none;
+  border-radius:30px;
+  font-size: 17px;
+  color: white;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-right:12px;
+  cursor: pointer;
+}
+
+.grid-1-button-1:hover{
+
+    background-color:#0159b1;
+    transition: all .35s;
+}
+
+
+.grid-1-trademark{
+
+  margin-top: 275px;
+  color: rgb(225, 0, 255);
+
+}
+
+
+/*    Grid 2 CSS    */
+
+ 
+.second-box{
+
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../Assets/grid-image-2.jpg");
+  height: 500px;
+  background-color: rgb(14, 34, 247);
+  background-size: cover;
+  justify-content: end;
+  padding-bottom: 40px;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid; 
+}
+
+.grid-2-button-2{
+
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ffffff;
+  background-color:rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius:30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+
+.grid-2-button-2:hover{
+ 
+    background-color:#ffffff;
+    transition: all .35s;
+    color: black;
+
+}
+.grid-2-button-1{
+
+   background-color:#ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border:none;
+  border-radius:30px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-right:12px;
+  cursor: pointer;
+}
+
+.grid-2-button-1:hover{
+
+   background-color: rgb(195, 195, 195);
+   transition: all 0.35s;
+}
+
+
+.grid-2-head{
+
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+}
+
+.grid-2-speciality
+{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+   margin-bottom:0px;
+   margin-top:0px;
+}
+
+
+/*    Grid 3 CSS    */
+
+
+.third-box{
+
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../Assets/grid-image-3.jpg");
+  height: 500px;
+  background-color: rgb(14, 34, 247);
+  background-size: cover;
+  justify-content: end;
+  padding-bottom: 40px;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+
+}
+
+
+/*    Grid 4 CSS    */
+
+
+.fourth-box{
+
+  display: flex;
+  flex-direction: column;
+  background-image: url("../Assets/grid-image-4.jpg");
+  align-items: center;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  
+}
+
+
+
+/*    Grid 5 CSS    */
+
+
+.fifth-box{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../Assets/grid-image-5.jpg");
+  height: 500px;
+  background-color: rgb(14, 34, 247);
+  background-size: cover;
+  padding-bottom: 40px;
+  padding-top:60px;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+
+}
+
+.grid-5-logo{
+
+  width:25px;
+}
+
+.grid-5-head{
+
+  display: inline-block;
+  font-size: 33px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom:5px;
+}
+.grid-5-description{
+
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+   margin-bottom:0px;
+   margin-top:0px;
+}
+
+.headlogo{
+
+  margin-bottom:0px;
+}
+
+
+/*    Grid 6 CSS    */
+
+
+.sixth-box{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../Assets/grid-image-6.jpg");
+  height: 500px;
+  background-color: rgb(14, 34, 247);
+  background-size: cover;
+  padding-bottom: 40px;
+  padding-top:60px;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+}
+
+.lightmode-button-learn{
+
+  background-color:rgb(0, 145, 255);
+  color: #ffffff;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius:30px;
+  font-size: 17px;
+  cursor: pointer;
+  border: none;
+  margin-top: 15px;
+  margin-right: 6px;
+}
+
+.lightmode-button-learn:hover{
+
+    background-color:#036ed9;
+    transition: all .35s;
+}
+
+
+.lightmode-button-buy{
+
+    border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 145, 255);
+  background-color:transparent;
+  color: #0059b2;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius:30px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+
+.lightmode-button-buy:hover{
+
+ background-color:rgb(0, 145, 255);
+  color: white;
+  transition: all 0.35s;
+}
+
+
+
+7 ) last-grid-part.css
+
+
+.last-grid-part{
+
+
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 1fr;
+  height: 250px;
+  margin-top:15px;
+  column-gap: 15px;
+  width:100%;
+
+}
+
+
+.main-3-img{
+
+  width:100%;
+
+}
+
+.main-3-name{
+
+  margin-top: 4px;
+  font-size:18px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+}
+
+.fourth-main-img{
+
+    object-fit: cover;
+    width: 220%;
+    height: 250px;
+    object-position: left;
+
+
+}
+
+.fourth-main-name{
+
+  margin-top: 4px;
+  font-size:18px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  width: 200px;
+}
+
+
+
+
+
+
+8 ) under-part.css
+
+
+.under-part-main{
+
+
+  background-color: rgba(233, 233, 233, 0.738);
+  height: 1400px;
+  margin-top:50px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+.under-main-content{
+
+   display: flex;
+ flex-direction: column;
+ align-items: center;
+  margin-top:50px;
+  padding-top: 10px;
+  margin-bottom: 20px;;
+}
+
+.under-paragraphs{
+
+  font-size: 12px;
+  color:rgba(0, 0, 0, 0.56);
+  width:1030px;
+}
+
+.last-paragraph-links{
+
+   color:rgba(0, 0, 0, 0.772);
+   
+}
+
+.categorization{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width:1030px;
+
+}
+
+.category-part-1{
+
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.cat-head{
+
+  font-family: arial;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.cat-lis{
+
+  font-size: 12px;
+  color:rgba(0, 0, 0, 0.685);
+  font-family: arial;
+  margin-bottom:13px;
+}
+
+.last-line{
+
+  font-size: 12px;
+  color:rgba(0, 0, 0, 0.56);
+}
+
+
+.conclude-word-div{
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 285px;
+
+}
+
+.conclude-links{
+
+
+  color: rgb(58, 127, 255);
+}
+
+.copyright{
+
+  margin-right:30px;
+}
+
+.country{
+
+  margin-left:252px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

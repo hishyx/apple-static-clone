@@ -1,0 +1,40 @@
+
+html{
+
+  height: 100%;
+}
+
+body{
+ 
+  height: 100%;
+  display: grid;
+  place-items:center;
+  background-color: rebeccapurple;
+}
+
+
+
+.typing-box{
+
+width: 300px;
+ margin-bottom: 30px;
+ height: 40px;
+ padding-left: 15px;
+ border-radius: 18px;
+
+
+}
+
+.enter-details-area{
+
+  width:320px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.apple-logo{
+
+  width: 100px;
+}
+

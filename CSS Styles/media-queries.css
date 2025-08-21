@@ -1,0 +1,10 @@
+@media (max-width:735px)
+{
+  .grided-section{
+
+    grid-template-columns: 1fr;
+
+  }
+
+}
+

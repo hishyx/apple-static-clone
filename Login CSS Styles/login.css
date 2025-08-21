@@ -1,0 +1,89 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: grid;
+  place-items: center;
+
+}
+
+.typing-box {
+
+  width: 300px;
+  margin-bottom: 30px;
+  height: 40px;
+  padding-left: 15px;
+  border-radius: 18px;
+  border:2px solid rgb(0, 102, 255);
+  color: black;
+  
+}
+
+.enter-details-area {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.apple-logo{
+  width: 70px;
+  display: block;
+  margin-bottom: 10px
+}
+
+.login-head{
+
+  font-size: 15px;
+  font-family:arial;
+  
+}
+
+.login-right-aligned{
+
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  padding-left: 15px;
+}
+
+
+.typing-box::placeholder{
+
+  color: black;
+}
+
+#login-button{
+
+  background-color: rgb(0, 0, 0);
+  width:320px;
+  height: 50px;
+  border:none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 25px;
+  cursor: pointer;
+  
+}
+
+.save-info-text{
+
+  display:inline-block;
+    font-size: 15px;
+  font-family:arial;
+  margin-left: 7px;
+  
+}
+
+.save-info-checkbox{
+
+  border-radius: 300px;
+  cursor: pointer;
+  accent-color: rgb(0, 102, 255);
+  
+}

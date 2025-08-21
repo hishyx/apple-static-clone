@@ -1,0 +1,58 @@
+
+body{
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+.topbarmain{
+
+ display: flex;
+ justify-content: center;
+  background-color: white;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+
+
+}
+.topbarcontent{
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  display: grid;
+  grid-template-columns:50px 800px 50px 50px ;
+
+
+
+}
+.icon,.shop,.search{
+  width: 16px;
+}
+.searchdiv,.shopdiv{
+
+    margin-left: 30px;
+
+}
+
+
+.ptop{
+
+  display: inline-block;
+  font-size:10px;
+  text-align: center;
+
+}
+
+
+.icondiv{
+  display: inline-block;
+  width:18px;
+}
+
+.menus{
+
+  display: flex;
+  justify-content: space-between;
+}
