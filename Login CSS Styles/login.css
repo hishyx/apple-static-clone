@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  height: 100%;
+  
   display: grid;
   place-items: center;
 
@@ -26,6 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 0px;
 
 }
 
@@ -35,7 +36,7 @@ body {
   margin-bottom: 10px
 }
 
-.login-head{
+.login-guide{
 
   font-size: 15px;
   font-family:arial;
@@ -86,4 +87,29 @@ body {
   cursor: pointer;
   accent-color: rgb(0, 102, 255);
   
+}
+
+
+.login-head{
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+
+.head-div{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.login-line{
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 }
