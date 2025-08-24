@@ -4,6 +4,7 @@ body{
   margin-top: 0px;
   margin-right: 0px;
   background-color: rgb(255, 255, 255);
+  margin-top: 42px;
 }
 
 .topbarmain{
@@ -15,6 +16,8 @@ body{
   align-items: center;
   position: fixed;
   z-index: 100;
+  height: 42px;
+  top: 0px;
 
 
 }
@@ -22,7 +25,7 @@ body{
   background-color: rgb(255, 255, 255);
   align-items: center;
   display: grid;
-  grid-template-columns:50px 800px 50px 50px ;
+  grid-template-columns:50px 800px 50px 50px;
 
 
 

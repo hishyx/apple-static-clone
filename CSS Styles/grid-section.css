@@ -30,6 +30,10 @@ sup{
   flex-direction: column;
   align-items: center;
   background-image: url("../Assets/grid-image-1.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: contain;
+  background-position: center;
   border-width: 2px;
   border-color: #ffffff;
   border-style: solid;  
@@ -107,7 +111,7 @@ sup{
 
 .grid-1-trademark{
 
-  margin-top: 275px;
+  margin-top: 300px;
    background: linear-gradient(to right,rgb(247, 0, 255),blue);
  background-clip:text;
  color: transparent;
@@ -123,7 +127,11 @@ sup{
     display: flex;
   flex-direction: column;
   align-items: center;
+  background-size: contain;
   background-image: url("../Assets/grid-image-2.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  
   height: 500px;
   background-color: rgb(14, 34, 247);
   background-size: cover;
@@ -234,6 +242,10 @@ sup{
   border-color: #ffffff;
   border-style: solid;
   height: 540px;
+    background-repeat: no-repeat;
+  background-color: black;
+  background-size: contain;
+  background-position: center;
 }
 
 
