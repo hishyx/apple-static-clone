@@ -7,6 +7,7 @@
   margin-left: 15px;
   margin-right:15px;
   row-gap: 15px;
+  
 
 }
 
@@ -37,7 +38,8 @@ sup{
   border-width: 2px;
   border-color: #ffffff;
   border-style: solid;  
-  height: 540px;
+  padding-bottom: 40px;
+ 
 
 }
 
@@ -131,15 +133,14 @@ background: linear-gradient(to right,rgb(162, 0, 255),blue,rgb(255, 81, 0));
   background-image: url("../Assets/grid-image-2.jpg");
   background-position: top;
   background-repeat: no-repeat;
-  
-  height: 500px;
-  background-color: rgb(14, 34, 247);
-  background-size: cover;
   justify-content: end;
   padding-bottom: 40px;
   border-width: 2px;
   border-color: #ffffff;
   border-style: solid; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .grid-2-button-2{
@@ -155,7 +156,8 @@ background: linear-gradient(to right,rgb(162, 0, 255),blue,rgb(255, 81, 0));
   padding-top: 7px;
   padding-bottom: 7px;
   border-radius:30px;
-  font-size: 15px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
 }
 
@@ -175,9 +177,9 @@ background: linear-gradient(to right,rgb(162, 0, 255),blue,rgb(255, 81, 0));
   padding-right: 15px;
   padding-top: 7px;
   padding-bottom: 7px;
-  border:none;
   border-radius:30px;
-  font-size: 15px;
+  font-size: 17px;
+  border: none;
   color: rgb(0, 0, 0);
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   margin-right:12px;
@@ -217,9 +219,10 @@ background: linear-gradient(to right,rgb(162, 0, 255),blue,rgb(255, 81, 0));
   flex-direction: column;
   align-items: center;
   background-image: url("../Assets/grid-image-3.jpg");
-  height: 500px;
-  background-color: rgb(14, 34, 247);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: contain;
+  background-position: center;
   justify-content: end;
   padding-bottom: 40px;
   border-width: 2px;
@@ -241,11 +244,11 @@ background: linear-gradient(to right,rgb(162, 0, 255),blue,rgb(255, 81, 0));
   border-width: 2px;
   border-color: #ffffff;
   border-style: solid;
-  height: 540px;
     background-repeat: no-repeat;
   background-color: black;
   background-size: contain;
   background-position: center;
+  padding-bottom: 40px;
 }
 
 
@@ -259,14 +262,16 @@ background: linear-gradient(to right,rgb(162, 0, 255),blue,rgb(255, 81, 0));
   flex-direction: column;
   align-items: center;
   background-image: url("../Assets/grid-image-5.jpg");
-  height: 500px;
-  background-color: rgb(14, 34, 247);
-  background-size: cover;
   padding-bottom: 40px;
   padding-top:60px;
   border-width: 2px;
   border-color: #ffffff;
   border-style: solid;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-color: #f5f5f7;
+  background-size: cover;
+  background-position: center;
 
 }
 
@@ -280,20 +285,28 @@ background: linear-gradient(to right,rgb(162, 0, 255),blue,rgb(255, 81, 0));
   display: inline-block;
   font-size: 33px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom:5px;
+  margin-bottom:6px;
+  font-weight: bold;
 }
 .grid-5-description{
 
 
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-   margin-bottom:0px;
-   margin-top:0px;
+  font-size: 17px;
+   margin-bottom:20px;
+   margin-top:5px;
 }
 
 .headlogo{
 
   margin-bottom:0px;
+}
+
+.grid-5-series-name{
+
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
 }
 
 
@@ -306,14 +319,15 @@ background: linear-gradient(to right,rgb(162, 0, 255),blue,rgb(255, 81, 0));
   flex-direction: column;
   align-items: center;
   background-image: url("../Assets/grid-image-6.jpg");
-  height: 500px;
-  background-color: rgb(14, 34, 247);
-  background-size: cover;
-  padding-bottom: 40px;
   padding-top:60px;
   border-width: 2px;
   border-color: #ffffff;
   border-style: solid;
+  background-repeat: no-repeat;
+  background-color: #f5f5f7;
+  background-size: contain;
+  background-position: bottom;
+  padding-bottom: 40px;
 }
 
 .lightmode-button-learn{

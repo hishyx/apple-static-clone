@@ -21,41 +21,81 @@ body{
 
 
 }
+
 .topbarcontent{
   background-color: rgb(255, 255, 255);
   align-items: center;
   display: grid;
   grid-template-columns:50px 800px 50px 50px;
-
+  height:100%;
+  
+  
+  
 
 
 }
 .icon,.shop,.search{
   width: 16px;
+  
+  transition:filter 0.5s;
 }
-.searchdiv,.shopdiv{
+.searchdiv,.shopdiv,.icondiv{
 
-    margin-left: 30px;
-
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
+.searchdiv:hover .search,.shopdiv:hover .shop,.icondiv:hover .icon{
+
+filter: brightness(0%);
+}
+
+
+.divtop{
+
+  height: 100%;
+  padding:0px 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
 
 .ptop{
 
   display: inline-block;
   font-size:10px;
   text-align: center;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(70, 70, 70);
+  cursor: pointer;
+  transition:color 0.5s;
+
+}
+.divtop:hover .ptop{
+
+color: black;
 
 }
 
 
 .icondiv{
-  display: inline-block;
+  
   width:18px;
 }
 
 .menus{
 
   display: flex;
+  height: 100%;
   justify-content: space-between;
+  align-items: center;
+
 }
+

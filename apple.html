@@ -6,7 +6,7 @@
 
 <title>Apple Store</title>
 
-<link rel="icon" href="Assets/apple.png">
+<link rel="icon" href="Assets/apple-black.png">
 
 </head>
 
@@ -26,6 +26,7 @@
 <link rel="stylesheet" href="CSS Styles/last-grid-part.css">
 <link rel="stylesheet" href="CSS Styles/under-part.css">
 <link rel="stylesheet" href="CSS Styles/media-queries.css">
+<link rel="stylesheet" href="CSS Styles/movie-suggestion.css">
 
 <body>
 
@@ -40,17 +41,40 @@
         
     
    <div class="menus">
+    <div class="divtop">
     <p class="ptop">Store</p>
+    </div>
+    <div class="divtop">
     <p class="ptop">Mac</p>
+    </div>
+    <div class="divtop">
     <p class="ptop">iPad</p>
+    </div>
+    <div class="divtop">
     <p class="ptop">iPhone</p>
+    </div>
+    <div class="divtop">
     <p class="ptop">Watch</p>
+    </div>
+    <div class="divtop">
     <p class="ptop">Vision</p>
+    </div>
+    <div class="divtop">
     <p class="ptop">AirPods</p>
+    </div>
+    <div class="divtop">
     <p class="ptop">TV & Home</p>
+    </div>
+    <div class="divtop">
     <p class="ptop">Entertainment</p>
+    </div>
+    <div class="divtop">
     <p class="ptop">Accessories</p>
+    </div>
+    <div class="divtop">
     <p class="ptop">Support</p>
+    </div>
+
     </div>
 
         <div class="searchdiv">
@@ -62,9 +86,11 @@
        
        <img class="shop" src="Assets/shop.png">
     </div>
+    
 
 
   </div>
+
   </div>
 
 
@@ -128,7 +154,9 @@
     <div class="adv-wraps">
     <div class="prod-adv-3rd">
 
-     <p class="adv-3rd-text">Choose AirPods or an eligible accessory<sup>1</sup> </p>
+     <p class="adv-3rd-text">Choose AirPods or an eligible accessory<sup class="prod-adv-superscript">2</sup> </p>
+
+     <img src="Assets/graduate-emoji.png" class="graduate-emoji">
     <img src="Assets/tail.png" class="tail-3">
     </div>
 
@@ -214,14 +242,19 @@
     <div class="headlogo">
 
     <img class="grid-5-logo" src="Assets/apple.png">
-    <p class="grid-5-head" >Trade In</p>
+    <p class="grid-5-head" >WATCH</p>
 
     </div>
 
-    <p class="grid-5-description">Get $160-$600 in credit when you</p>
-    <p class="grid-5-description">trade in iPhone 12 or higher.<sup> 4</sup></p>
+    <p class="grid-5-series-name">SERIES 10</p>
+    <p class="grid-5-description">Thinstant classic.<sup> 4</sup></p>
 
-    <button class="lightmode-button-learn">Get your estimate</button>
+         <div class="grid-5-buttons">
+
+          <button class="grid-1-button-1">Learn more</button>
+         <button class="grid-1-button-2">Buy</button> 
+
+         </div>
   </div>
 
     <div class="sixth-box">
@@ -238,50 +271,90 @@
 
 <div class="grid-6-buttons">
 
- <button class="lightmode-button-learn">Learn more</button>
-  <button class="lightmode-button-buy">Apply now</button>
+     <div class="grid-6-buttons">
+
+          <button class="grid-1-button-1">Learn more</button>
+         <button class="grid-1-button-2">Apply now</button> 
+
+         </div>
 </div>
    
   </div>
 
 </div>
 
+<div class="tv-shows">
+
+  <div class="left-movie-div">
+
+    <img class="side-movie-img" src="Assets/last-left-movie.jpg">
+  </div>
+
+    <div class="middle-movie-div">
+      
+         <img class="main-movie-img" src="Assets/last-middle-movie.jpg">
+         <button class="stream-button">Stream now</button>
+         <p class="middle-movie-title">Sci-FI &middot;<span style="font-weight: lighter;"> New season</span></p>
+      
+    
+  </div>
+
+    <div class="right-movie-div">
+
+      <img class="side-movie-img" src="Assets/last-right-movie.jpg" style="object-position: left;">
+    
+  </div>
+
+</div>
+
+<div class="scroll-dots">
+  <p class="scroll-dot-text">&middot;<span style="color:black;">&middot;</span>&middot;&middot;&middot;&middot;&middot;</p>
+</div>
+
  <div class="last-grid-part">
   
-<div class="last-grid-1">
+<div class="last-grid-1 last-grid-boxes">
 
-   <div class="last-grid-img-div">
 <img class="main-3-img" src="Assets/last-grid-img-1.jpg">
-</div>
 
 <p class="main-3-name">Apple Music</p>
+<button class="last-grid-button">Listen now</button>
+
 </div>
 
-<div class="last-grid-2">
+<div class="last-grid-2 last-grid-boxes">
 
-  <div class="last-grid-img-div">
+ 
   <img class="main-3-img" src="Assets/last-grid-img-2.jpg">
-  </div>
+
   <p class="main-3-name">Apple Vision Pro</p>
+  <button class="last-grid-button">Buy now</button>
 
 </div>
 
-<div class="last-grid-3">
+<div class="last-grid-3 last-grid-boxes">
 
-  <div class="last-grid-img-div">
+
   <img class="main-3-img" src="Assets/last-grid-img-3.jpg">
-  </div>
+
   <p class="main-3-name">Apple Fitness +</p>
+  <button class="last-grid-button">Learn more</button>
 
 </div>
 
-<div class="last-grid-4">
+<div class="last-grid-4 last-grid-boxes">
   
-   <div class="last-grid-img-div">
+
   <img class="fourth-main-img" src="Assets/last-grid-img-4.jpg">
-  </div>
-  <p class="main-3-name">Apple Airpods Pro</p>
+
+  <p class="main-3-name" >Apple Smart Glasses</p>
+    <button class="last-grid-button smart-glass-button">Book now</button>
+
+  
 </div>
+
+
+
 
 </div>
 

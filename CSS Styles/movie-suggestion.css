@@ -1,0 +1,82 @@
+.tv-shows{
+
+  display: grid;
+  grid-template-columns:130px 1fr 130px;
+  height: 650px;
+ 
+  column-gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+
+}
+
+
+.main-movie-img,.side-movie-img{
+
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+  
+}
+
+.side-movie-img{
+
+  filter: brightness(30%) invert(1);
+  border-top-right-radius: 40px;
+  border: bottom right radius 40px;
+
+}
+
+
+
+
+.left-movie-div,.middle-movie-div,.right-movie-div{
+
+  height: 650px;
+  position: relative;
+  cursor: pointer;
+   
+}
+
+.scroll-dots{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  
+}
+
+.scroll-dot-text{
+
+  font-size: 60px;
+  margin: 0px;
+  color: gray;
+  cursor: pointer;
+}
+
+.stream-button{
+
+  padding: 12px 30px;
+  position:absolute;
+  bottom:35px;
+  left: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.middle-movie-title{
+
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position:absolute;
+  bottom:29px;
+  left: 190px;
+}
